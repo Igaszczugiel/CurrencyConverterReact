@@ -1,3 +1,24 @@
+import React from 'react';
+import './App.css';
+import Logo from './Components/Logo/Logo';
+import Converter from './Components/Converter/Converter';
+import SubmitButton from './Components/SubmitButton/SubmitButton';
+
+function App() {
+  return (
+    <>
+      <Logo></Logo>
+      <main>
+        <Converter></Converter>
+        <SubmitButton></SubmitButton>
+      </main>
+    </>
+  );
+}
+export default App;
+
+
+
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -25,27 +46,3 @@
 // export default App;
 
 
-import React from 'react';
-import './App.css';
-import Logo from './Components/Logo/Logo';
-import Input from './Components/Input/Input';
-import From from './Components/From/From';
-import Into from './Components/Into/Into';
-import SubmitButton from './Components/SubmitButton/SubmitButton';
-import Equals from './Components/Equals/Equals';
-
-function App() {
-  return (
-    <>
-      <Logo></Logo>
-      <main>
-        <Input></Input>
-        <From></From>
-        <Into></Into>
-        <SubmitButton></SubmitButton>
-        <Equals></Equals>
-      </main>
-    </>
-  );
-}
-export default App;
