@@ -44,12 +44,12 @@ table {
 
 /* end of reset */
 
-.top-header {
+/* .top-header {
     display: flex;
     align-items: center;
     border: #f12c7f solid 1px;
     margin: 40px 40px 0 40px;
-}
+} */
 
 .result {
     font-size: 18px;
@@ -58,7 +58,7 @@ table {
     margin: 3px;
 }
 
-.logo {
+/* .logo {
     height: 100px;
     width: 100px;
     background-size: cover;
@@ -71,13 +71,12 @@ table {
     display: flex;
     flex-direction: column;
     text-align: left;
-}
+} */
 
-h1 {
+/* h1 {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     color: #EA4F1F;
-    /* margin: 10px; */
 }
 
 h2 {
@@ -85,20 +84,22 @@ h2 {
     font-family: 'Roboto', sans-serif;
     color: #EA4F1F;
     margin: 3px;
-}
+} */
+
+
+/* h4 {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #EA4F1F;
+    margin-top: 5px;
+} */
+
 
 .h3 {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     color: #EA4F1F;
     margin: 3px;
-}
-
-h4 {
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
-    color: #EA4F1F;
-    margin-top: 5px;
 }
 
 .converter {
