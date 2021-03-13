@@ -1,5 +1,7 @@
 # CurrencyConverterReact
-Final project for FC Frontend React bootcamp. Simple currency converter made with React.js
+Final project for FC Frontend React bootcamp. Simple currency converter made with React.js;
+To see this project in GitHub Pages go to: 
+https://igaszczugiel.github.io/CurrencyConverterReact/
 
 
 # Getting Started with Create React App
