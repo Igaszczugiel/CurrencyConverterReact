@@ -1,12 +1,12 @@
 import React from 'react';
-import './SubmitButton.css';
+import Converter from '../Converter';
 
 let result = document.getElementById("result");
 let form = document.querySelector('#convertIt');
 
-form.addEventListener("submit", convertCurrency);
+form.addEventListener("submit", Submit);
 
-function convertCurrency(event) {
+function Submit(event) {
     event.preventDefault();
     // this stops form from default behaviour (page reload)
     let currencyCode = document.querySelector('#currencyListFrom').value;
@@ -21,4 +21,4 @@ function convertCurrency(event) {
     })
 }; 
 
-export default SubmitButton;
+export default Submit;

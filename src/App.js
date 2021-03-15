@@ -8,10 +8,7 @@ function App() {
   return (
     <>
       <Logo></Logo>
-      <main>
-        <Converter></Converter>
-        <SubmitButton></SubmitButton>
-      </main>
+      <Converter></Converter>
     </>
   );
 }
