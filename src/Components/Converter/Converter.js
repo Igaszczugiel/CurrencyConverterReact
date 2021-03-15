@@ -1,6 +1,6 @@
 import React from 'react';
 import './Converter.css';
-import ubmit from './Submit';
+import Submit from './Submit';
 
 function Converter() {
   return (
