@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import './Logo.css';
 
 function Logo() {
@@ -15,4 +15,3 @@ function Logo() {
 }
 
 export default Logo;
-
